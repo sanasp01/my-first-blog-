@@ -4,7 +4,7 @@
     </head>
      <body>
        
-
+<div>
 {% for post in posts %}
     <div>
         <p>published: {{ post.published_date }}</p>
@@ -12,5 +12,6 @@
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 {% endfor %}
+</div>
     </body>
 </html>
